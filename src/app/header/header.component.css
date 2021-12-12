@@ -1,0 +1,10 @@
+.backg{
+  height: 50vh;
+  background-image: url(.../../../../../41023430-blank-black-diary-and-accessories.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1{
+  font-family: fangsong;
+  font-weight: 600;
+}

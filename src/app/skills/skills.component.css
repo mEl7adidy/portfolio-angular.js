@@ -1,0 +1,11 @@
+.line::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: white;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    }
+
+

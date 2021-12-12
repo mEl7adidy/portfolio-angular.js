@@ -1,0 +1,15 @@
+<section class="container py-5">
+  <h2 class="py-3 title">Portfolio</h2>
+  <div class="row container">
+    <div *ngFor="let elem of portfolio; let i = index" class="col-4 py-1">
+      <div
+        [ngStyle]="{ 'background-color': i % 2 ? 'black' : 'gray' }"
+        class="text-center text-white py-5"
+      >
+        <h6>{{ elem }}</h6>
+        <div [ngClass]="{card_border:i<3}"></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</section>

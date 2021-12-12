@@ -1,0 +1,9 @@
+.title{
+  font-family: emoji;
+  font-weight: 700;
+}
+.card_border{
+  border-bottom: 1px solid white;
+  width: 30%;
+  margin: auto;
+}
